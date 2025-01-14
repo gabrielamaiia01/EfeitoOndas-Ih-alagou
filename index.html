@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efeitos de Ondas - Ih, alagou</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+ 
+    <div class="header"> 
+        <div class="inner-header flex"> 
+        <h1> Ih, alagou </h1>
+        </div> 
+
+        <div> 
+            <svg 
+            class="waves"
+            viewBox="0 24 150 28"
+            preserveAspectRatio="none"
+            shape-rendering="auto"
+            > 
+
+             <!-- Definição do caminho das ondas -->
+            <defs>
+                <path 
+                id="gentle-wave"
+                d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+                />
+            </defs>
+
+                 <!-- Agrupamento das ondas com efeito de paralaxe -->
+            <g class="parallax">
+                <use 
+                xlink:href="#gentle-wave"
+                x="48"
+                y="0"
+                fill="#a9e3f6 "/>
+
+                <use 
+                xlink:href="#gentle-wave"
+                x="48"
+                y="3"
+                fill="#29abe2"/>
+
+                <use 
+                xlink:href="#gentle-wave"
+                x="48"
+                y="5"
+                fill="#628BEC "/>
+
+                <use 
+                xlink:href="#gentle-wave"
+                x="48"
+                y="7"
+                fill="#3563CE"/>
+            </g> 
+        
+        </svg>
+        </div>
+
+        <div class="content flex"> 
+        </div>
+    </div> 
+
+    
+</body>
+</html>
