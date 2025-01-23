@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #3358B0; /* Azul semelhante ao do exemplo */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 120px; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+.footer-text {
+    font-weight: bold; 
+    text-align: center;
+}
+
+.footer-map img {
+    width: 120px; /* Ajuste conforme necessário */
+    height: auto;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-icons .social-icon img {
+    width: 30px;
+    height: 30px;
+}
