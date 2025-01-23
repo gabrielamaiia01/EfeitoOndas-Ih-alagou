@@ -141,16 +141,14 @@ p{
   align-items: center;
 }
 
-.icone-mapa::before {
-  content: ""; /* Ícone do mapa */
-  font-size: 50px;
-  color: #4169e1;
+.icone-mapa  img{
+  width: 50px;
+  height: 50px;
 }
 
-.icone-sobre::before {
-  content: ""; /* Ícone de informação */
-  font-size: 50px;
-  color: #4169e1;
+.icone-sobre img{
+  width: 20px;
+  height: 50px;
 }
 
 p {
