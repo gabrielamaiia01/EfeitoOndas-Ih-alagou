@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #fff;
   color: #333;
   margin: 0;
   padding: 0;
@@ -13,6 +13,7 @@ body {
 h1 {
   color: #0044cc;
   margin-bottom: 20px;
+
 }
 
 .team {
@@ -27,8 +28,8 @@ h1 {
 .card {
   display: flex;
   background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /*border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
   overflow: hidden;
 }
 
@@ -46,13 +47,14 @@ h1 {
 .info h2 {
   color: #0044cc;
   margin: 0;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .info h3 {
   color: #007bff;
   margin: 4px 0;
   font-size: 16px;
+  text-align: left;
 }
 
 .info p {
@@ -60,4 +62,5 @@ h1 {
   font-size: 14px;
   margin-top: 8px;
   line-height: 1.5;
+  text-align: left;
 }
