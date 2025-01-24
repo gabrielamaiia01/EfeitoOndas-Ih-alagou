@@ -1,103 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Efeitos de Ondas - Ih, alagou</title>
-    <link rel="stylesheet" href="Css/style.css"> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/Header/Logo2.png" type="image/png">
+  <title>Ih, alagou</title>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <link rel="stylesheet" href="Css/Header.css"> <!-- CSS do Header - Ondas e Logo -->
+  <link rel="stylesheet" href="css/CardMembros.css"> <!-- CSS do Card dos membros da equipe -->
+  <link rel="stylesheet" href="css/CardSobreNos.css"> <!-- CSS do Card dos membros da equipe -->
+  <link rel="stylesheet" href="Css/Footer.css"> <!-- CSS do Header - Ondas e Logo -->
+
 
 </head>
+
 <body>
- 
-    <div class="header"> 
-        <div class="inner-header flex">
 
-            <div class="Logo"> 
-                <img src="img/Logo.png" alt="Desenho protótipo"> 
-            </div>
-           <!-- Falta alterar o tamamho -->
+  <div class="header"> <!-- Header da página-->
+    <div class="inner-header flex"> <!-- DIV onde contém a logo e o cano-->
 
-            <div class="Cano"> 
-                <img src="img/Cano.png" alt="Desenho protótipo"> 
-            </div>
-        </div> 
+      <div class="Logo">
+        <img src="img/Header/Logo.png" alt="Logo - Ih,alagou">
+      </div>
+      <!-- Falta alterar o tamamho -->
 
-        <div> 
-            <svg 
-            class="waves"
-            viewBox="0 24 150 28"
-            preserveAspectRatio="none"
-            shape-rendering="auto"
-            > 
-
-             <!-- Definição do caminho das ondas -->
-            <defs>
-                <path 
-                id="gentle-wave"
-                d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
-                />
-            </defs>
-
-                 <!-- Agrupamento das ondas com efeito de paralaxe -->
-            <g class="parallax">
-                <use 
-                xlink:href="#gentle-wave"
-                x="48"
-                y="0"
-                fill="#a9e3f6 "/>
-
-                <use 
-                xlink:href="#gentle-wave"
-                x="48"
-                y="3"
-                fill="#29abe2"/>
-
-                <use 
-                xlink:href="#gentle-wave"
-                x="48"
-                y="5"
-                fill="#628BEC "/>
-
-                <use 
-                xlink:href="#gentle-wave"
-                x="48"
-                y="7"
-                fill="#3563CE"/>
-            </g> 
-        
-        </svg>
-        </div>
-
-        <div class="content flex">
-            <h3> Soluções inovadoras para um <br> 
-                futuro sustentável.</h3>
-        </div>
-    
-        
-    </div> 
-
-    <div class="content-test"> 
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#3563CE" fill-opacity="1" d="M0,160L120,138.7C240,117,480,75,720,58.7C960,43,1200,53,1320,58.7L1440,64L1440,0L1320,0C1200,0,960,0
-            ,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
+      <div class="Cano">
+        <img src="img/Header/Cano.png" alt="Desenho protótipo">
+      </div>
     </div>
 
-   <div class="Texto-1">
+    <div> <!-- ondas -->
+      <svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+
+        <!-- Definição do caminho das ondas -->
+        <defs>
+          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+        </defs>
+
+        <!-- Agrupamento das ondas com efeito de paralaxe -->
+        <g class="parallax">
+          <use xlink:href="#gentle-wave" x="48" y="0" fill="#a9e3f6 " />
+
+          <use xlink:href="#gentle-wave" x="48" y="3" fill="#29abe2" />
+
+          <use xlink:href="#gentle-wave" x="48" y="5" fill="#628BEC " />
+
+          <use xlink:href="#gentle-wave" x="48" y="7" fill="#3563CE" />
+        </g>
+
+      </svg>
+    </div>
+
+    <div class="content flex"> 
+      <h3> Soluções inovadoras para um <br>
+        futuro sustentável.</h3>
+    </div>
+
+  </div>
+
+  <div class="content-test">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#3563CE" fill-opacity="1" d="M0,160L120,138.7C240,117,480,75,720,58.7C960,43,1200,53,1320,58.7L1440,64L1440,0L1320,0C1200,0,960,0
+          ,720,0C480,0,240,0,120,0L0,0Z"></path>
+    </svg>
+  </div>
+
+
+  <div class="Texto-1">
     <h2>Acelerando a resiliência climática <br>
-        e promovendo o impacto social</h2>
-   </div>
-   
-   <div class="item">
+      e promovendo o impacto social</h2>
+  </div>
+
+  <div class="item">
     <div class="icone icone-mapa">
-        <img src="img/VetorMapa.png" alt="Vetor Mapa">
+      <img src="img/VetorMapa.png" alt="Vetor Mapa">
     </div>
     <p>Mapa</p>
   </div>
   <div class="linha"></div>
   <div class="item">
     <div class="icone icone-sobre">
-        <img src="img/VetorSobreNos.png" alt="Vetor Sobre Nos"> 
+      <img src="img/VetorSobreNos.png" alt="Vetor Sobre Nos">
     </div>
     <p>Sobre nós</p>
   </div>
+
+  <div class="page-container">
+    <div class="container-1">
+      <div class="header-1">
+        Instalação do Protótipo no Espaço Ciência
+      </div>
+      <div class="image-container">
+        <img src="img/Card-SobreNos/Espaço Ciencia.png" alt="Grupo instalando protótipo">
+      </div>
+    </div>
+
+    <div class="text-box">
+      60 dias após vencermos a maratona de programação Hacker Cidadão 11.0, promovida pela Prefeitura do Recife, fizemos
+      a instalação do nosso MVP no museu interativo de Ciência e Tecnologia, Espaço Ciência.
+    </div>
+
+    <div class="container-1">
+      <div class="header-1">
+        Parceria com o laboratório LIMCS
+      </div>
+      <div class="image-container">
+        <img src="img/Card-SobreNos/laboratório LIMCS.png" alt="Grupo apresentando projeto">
+      </div>
+    </div>
+
+    <div class="text-box">
+      Durante o desenvolvimento do protótipo, a startup contou com o acompanhamento direto do LIMCS (Laboratório de
+      Inovação para Mudanças Climáticas e Sustentabilidade), vinculado ao Instituto Humanitas Unicap, e da Defesa Civil
+      do Recife. Na 11ª Semana Socioambiental da Unicap, foi agraciada com o Prêmio LIMCS de Inovação Socioambiental.
+    </div>
+
+    <div class="container-1">
+      <div class="header-1">
+        Vencedores da Maratona de Negócios do SEBRAE
+      </div>
+      <div class="image-container">
+        <img src="img/Card-SobreNos/Maratona de Negócios.png" alt="Apresentação em evento">
+      </div>
+    </div>
+
+    <div class="text-box">
+      Na Campus Party Nordeste, a startup teve a oportunidade de participar da maratona de negócios do SEBRAE, onde
+      passou por três dias de imersão com acesso a palestras, workshops e mentorias. Com mais de 250 inscrições, a 'Ih,
+      Alagou' conquistou o 1º lugar após o Demoday.
+    </div>
+
+    <div class="container-1">
+      <div class="header-1">
+        Participação no BNDES Garagem
+      </div>
+      <div class="image-container">
+        <img src="img/Card-SobreNos/BNDES.png" alt="Certificado de prêmio">
+      </div>
+    </div>
+    <div class="text-box">
+      O 'Ih, Alagou' foi selecionado para o programa BNDES Garagem, uma iniciativa que fomenta startups com soluções
+      inovadoras para desafios sociais e ambientais. Durante o programa, nossa equipe recebeu mentorias especializadas,
+      acesso a redes de contato e suporte para o desenvolvimento do negócio, reafirmando nosso compromisso com a
+      resiliência climática e o impacto social.
+    </div>
+  </div>
+
+  <div class="text-2"> 
+    <div class="container2">
+       <h1 class="title2">Nossa Missão</h1>
+       <p class="description2">
+         Nossa missão é desenvolver soluções tecnológicas inovadoras que aumentem a resiliência climática de cidades e comunidades, promovendo impacto social positivo e contribuindo para um futuro sustentável.
+       </p>
+     </div>
+   </div>
+
+  <div class="container-members">
+    <h1>Conheça nosso time:</h1>
+    <div class="team">
+      <div class="card">
+        <img src="img/Card-Membros/Maria Vitória.png" alt="Maria Vitória">
+        <div class="info">
+          <h2>Maria Vitória</h2>
+          <div class="color">
+            <h3>Desenvolvedora Back-End</h3>
+            <p>Estudante de Análise e Desenvolvimento de Sistemas, mãe de pet, amante de bolo de rolo com café.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/Card-Membros/Gabriela Maia.png" alt="Gabriela Maia">
+        <div class="info">
+          <h2>Gabriela Maia</h2>
+          <h3>Desenvolvedora Front-End</h3>
+          <p>Estudante de Análise e Desenvolvimento de Sistemas, nunca recusa uma coxinha.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/Card-Membros/Bruna Thamires.png" alt="Bruna Thamires">
+        <div class="info">
+          <h2>Bruna Thamires</h2>
+          <h3>Pesquisadora</h3>
+          <p>Formada em Geografia, realiza suas análises enquanto toma um doce.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/Card-Membros/Lucas Leonides.png" alt="Lucas Leonides">
+        <div class="info">
+          <h2>Lucas Leonides</h2>
+          <h3>Maker</h3>
+          <p>Estudante de Análise e Desenvolvimento de Sistemas, sempre com um lápis não afiado à mão.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/Card-Membros/Lucas Quadros.png" alt="Lucas Quadros">
+        <div class="info">
+          <h2>Lucas Quadros</h2>
+          <h3>Desenvolvedor IoT</h3>
+          <p>Estudante de Engenharia Eletrônica e que importa é o tamanho do grão.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p class="footer-text">De um projeto a uma cidade mais segura: O futuro começa agora.</p>
+
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="img/Footer/ih-alagou-logo.png" alt="Logo ih Alagou">
+      </div>
+
+      <div class="footer-map">
+        <img src="img/Footer/mapa.png" alt="Mapa do Recife">
+      </div>
+      <div class="footer-icons">
+        <a href="#" class="social-icon"><img src="img/Footer/instagram-icon.png" alt="Instagram"></a>
+        <a href="#" class="social-icon"><img src="img/Footer/whatsapp-icon.png" alt="WhatsApp"></a>
+      </div>
+    </div>
+
+<script src="script.js"></script>
 </body>
+
 </html>
