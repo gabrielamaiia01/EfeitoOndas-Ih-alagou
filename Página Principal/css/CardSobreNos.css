@@ -55,7 +55,7 @@
   }
   
   .text-box:hover{ 
-    transform: translateY(-5px) translateX(-5px);
+    transform: translateY(-2px) translateX(-2px);
     box-shadow: 10px 15px 10px #1d4fd86e;
   
   }

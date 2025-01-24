@@ -9,8 +9,8 @@
   <script src="https://unpkg.com/scrollreveal"></script>
   <link rel="stylesheet" href="Css/Header.css"> <!-- CSS do Header - Ondas e Logo -->
   <link rel="stylesheet" href="css/CardMembros.css"> <!-- CSS do Card dos membros da equipe -->
-  <link rel="stylesheet" href="css/CardSobreNos.css"> <!-- CSS do Card dos membros da equipe -->
-  <link rel="stylesheet" href="Css/Footer.css"> <!-- CSS do Header - Ondas e Logo -->
+  <link rel="stylesheet" href="css/CardSobreNos.css"> <!-- CSS do Card Sobre Nós -->
+  <link rel="stylesheet" href="Css/Footer.css"> <!-- CSS do Footer -->
 
 
 </head>
@@ -18,19 +18,18 @@
 <body>
 
   <div class="header"> <!-- Header da página-->
-    <div class="inner-header flex"> <!-- DIV onde contém a logo e o cano-->
+    <div class="inner-header"> <!-- DIV onde contém a logo e o cano-->
 
       <div class="Logo">
         <img src="img/Header/Logo.png" alt="Logo - Ih,alagou">
       </div>
-      <!-- Falta alterar o tamamho -->
-
       <div class="Cano">
         <img src="img/Header/Cano.png" alt="Desenho protótipo">
       </div>
     </div>
 
-    <div> <!-- ondas -->
+    
+    <div class="ondas"> <!-- ondas -->
       <svg class="waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
 
         <!-- Definição do caminho das ondas -->
@@ -147,9 +146,11 @@
     </div>
   </div>
 
+
   <div class="text-2"> 
     <div class="container2">
        <h1 class="title2">Nossa Missão</h1>
+       <div class="linha1"> </div>
        <p class="description2">
          Nossa missão é desenvolver soluções tecnológicas inovadoras que aumentem a resiliência climática de cidades e comunidades, promovendo impacto social positivo e contribuindo para um futuro sustentável.
        </p>
